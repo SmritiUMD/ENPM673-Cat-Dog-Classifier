@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-# can use the below import should you choose to initialize the weights of your Net
 import torch.nn.init as I
 
 
@@ -14,7 +13,6 @@ class Net(nn.Module):
    
  #
 #         ## 1. This network takes in a square (same width and height), grayscale image as input
-#         ## 2. It ends with a linear layer that represents the keypoints
         
   
         # Covolutional Layers
